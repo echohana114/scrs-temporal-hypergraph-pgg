@@ -1,0 +1,97 @@
+file,rows,source
+source_data/fig1_model_diagram_flow.csv,4,SCRS model schematic source table
+source_data/fig2a_s20_scrs_tail_by_case.csv,18,S20 scrs_formal_cell_summary.csv
+source_data/fig2b_s20_gap_cells_for_forest.csv,90,S20 cell-level SCRS gaps used for forest/dot-CI panel
+source_data/fig2b_s20_gap_forest_summary.csv,10,S20 forest summary from cell-level SCRS gaps
+source_data/fig2b_s20_mean_gaps_by_source.csv,10,S20 source/cell/mechanism summaries
+source_data/fig3_s25_mechanism_paired_gaps_by_cell.csv,126,S25 scrs_nc_paired_gap_summary.csv
+source_data/fig3_s25_mechanism_mean_gaps.csv,12,S25 scrs_nc_mechanism_summary.csv
+source_data/fig4a_s21_robustness_cell_summary.csv,210,S21 cell summary
+source_data/fig4a_s21_robustness_source_summary.csv,6,S21 source summary
+source_data/fig4a_s21_phase_r_rho0.csv,30,S21 rho0 sweep summarized as r-by-rho0 phase diagram
+source_data/fig4b_s24_phase_r_mutation.csv,24,S24 long-horizon noise summarized as r-by-mutation phase diagram
+source_data/fig4b_s22_real_nulls_cell_summary.csv,48,S22 cell summary
+source_data/fig4b_s22_real_nulls_mechanism_summary.csv,4,S22 mechanism summary
+source_data/fig4c_s23_synthetic_stress_cell_summary.csv,45,S23 cell summary
+source_data/fig4c_s23_synthetic_stress_case_summary.csv,15,S23 case summary
+source_data/fig5a_s26_external_empirical_cases.csv,5,S26 case summary
+source_data/fig5a_s26_external_paired_gaps_by_cell.csv,60,S26 paired gap summary
+source_data/fig5a_s26_external_dataset_manifest.csv,5,S26 external manifest
+source_data/fig5b_s27_payoff_update_source_summary.csv,8,S27 source summary
+source_data/fig5b_s27_payoff_update_paired_gaps_by_cell.csv,144,S27 paired gap summary
+source_data/fig5c_s24_noise_horizon_cell_summary.csv,36,S24 cell summary
+source_data/fig5c_s24_noise_horizon_trajectory_summary.csv,14400,S24 trajectory.csv
+source_data/fig4c_s22_real_nulls_gap_cells_long.csv,192,S22 real-null paired gaps reshaped for cell-level inference
+source_data/cell_level_inference_summary.csv,86,Cell-level paired bootstrap and sign-permutation summaries for main paired claims
+source_data/supplementary/s20_scrs_formal_source_summary.csv,2,S20 scrs_formal_source_summary.csv
+source_data/supplementary/s20_scrs_formal_case_summary.csv,6,S20 scrs_formal_case_summary.csv
+source_data/supplementary/s20_scrs_formal_cell_summary.csv,18,S20 scrs_formal_cell_summary.csv
+source_data/supplementary/s20_scrs_formal_mechanism_summary.csv,10,S20 scrs_formal_mechanism_summary.csv
+source_data/supplementary/s20_scrs_formal_pairwise_gaps.csv,270,S20 scrs_formal_pairwise_gaps.csv
+source_data/supplementary/s21_scrs_nc_source_summary.csv,6,S21 scrs_nc_source_summary.csv
+source_data/supplementary/s21_scrs_nc_case_summary.csv,18,S21 scrs_nc_case_summary.csv
+source_data/supplementary/s21_scrs_nc_cell_summary.csv,210,S21 scrs_nc_cell_summary.csv
+source_data/supplementary/s21_scrs_nc_mechanism_summary.csv,42,S21 scrs_nc_mechanism_summary.csv
+source_data/supplementary/s21_summary.csv,1680,S21 summary.csv
+source_data/supplementary/s21_qa_summary.json,7,S21 qa_summary.json
+source_data/supplementary/s22_scrs_nc_source_summary.csv,1,S22 scrs_nc_source_summary.csv
+source_data/supplementary/s22_scrs_nc_case_summary.csv,4,S22 scrs_nc_case_summary.csv
+source_data/supplementary/s22_scrs_nc_cell_summary.csv,48,S22 scrs_nc_cell_summary.csv
+source_data/supplementary/s22_scrs_nc_mechanism_summary.csv,4,S22 scrs_nc_mechanism_summary.csv
+source_data/supplementary/s22_summary.csv,240,S22 summary.csv
+source_data/supplementary/s22_qa_summary.json,7,S22 qa_summary.json
+source_data/supplementary/s23_scrs_nc_source_summary.csv,1,S23 scrs_nc_source_summary.csv
+source_data/supplementary/s23_scrs_nc_case_summary.csv,15,S23 scrs_nc_case_summary.csv
+source_data/supplementary/s23_scrs_nc_cell_summary.csv,45,S23 scrs_nc_cell_summary.csv
+source_data/supplementary/s23_scrs_nc_mechanism_summary.csv,4,S23 scrs_nc_mechanism_summary.csv
+source_data/supplementary/s23_summary.csv,225,S23 summary.csv
+source_data/supplementary/s23_qa_summary.json,7,S23 qa_summary.json
+source_data/supplementary/s24_scrs_nc_source_summary.csv,2,S24 scrs_nc_source_summary.csv
+source_data/supplementary/s24_scrs_nc_case_summary.csv,3,S24 scrs_nc_case_summary.csv
+source_data/supplementary/s24_scrs_nc_cell_summary.csv,36,S24 scrs_nc_cell_summary.csv
+source_data/supplementary/s24_scrs_nc_mechanism_summary.csv,6,S24 scrs_nc_mechanism_summary.csv
+source_data/supplementary/s24_summary.csv,144,S24 summary.csv
+source_data/supplementary/s24_qa_summary.json,7,S24 qa_summary.json
+source_data/supplementary/s25_scrs_nc_source_summary.csv,2,S25 scrs_nc_source_summary.csv
+source_data/supplementary/s25_scrs_nc_case_summary.csv,7,S25 scrs_nc_case_summary.csv
+source_data/supplementary/s25_scrs_nc_cell_summary.csv,21,S25 scrs_nc_cell_summary.csv
+source_data/supplementary/s25_scrs_nc_mechanism_summary.csv,12,S25 scrs_nc_mechanism_summary.csv
+source_data/supplementary/s25_scrs_nc_pairwise_gap_summary.csv,126,S25 scrs_nc_pairwise_gap_summary.csv
+source_data/supplementary/s25_scrs_nc_paired_gap_summary.csv,126,S25 scrs_nc_paired_gap_summary.csv
+source_data/supplementary/s25_summary.csv,147,S25 summary.csv
+source_data/supplementary/s25_qa_summary.json,7,S25 qa_summary.json
+source_data/supplementary/s26_scrs_nc_source_summary.csv,1,S26 scrs_nc_source_summary.csv
+source_data/supplementary/s26_scrs_nc_case_summary.csv,5,S26 scrs_nc_case_summary.csv
+source_data/supplementary/s26_scrs_nc_cell_summary.csv,15,S26 scrs_nc_cell_summary.csv
+source_data/supplementary/s26_scrs_nc_mechanism_summary.csv,4,S26 scrs_nc_mechanism_summary.csv
+source_data/supplementary/s26_scrs_nc_pairwise_gap_summary.csv,60,S26 scrs_nc_pairwise_gap_summary.csv
+source_data/supplementary/s26_scrs_nc_paired_gap_summary.csv,60,S26 scrs_nc_paired_gap_summary.csv
+source_data/supplementary/s26_summary.csv,75,S26 summary.csv
+source_data/supplementary/s26_qa_summary.json,7,S26 qa_summary.json
+source_data/supplementary/s27_scrs_nc_source_summary.csv,8,S27 scrs_nc_source_summary.csv
+source_data/supplementary/s27_scrs_nc_case_summary.csv,12,S27 scrs_nc_case_summary.csv
+source_data/supplementary/s27_scrs_nc_cell_summary.csv,36,S27 scrs_nc_cell_summary.csv
+source_data/supplementary/s27_scrs_nc_mechanism_summary.csv,32,S27 scrs_nc_mechanism_summary.csv
+source_data/supplementary/s27_scrs_nc_pairwise_gap_summary.csv,144,S27 scrs_nc_pairwise_gap_summary.csv
+source_data/supplementary/s27_scrs_nc_paired_gap_summary.csv,144,S27 scrs_nc_paired_gap_summary.csv
+source_data/supplementary/s27_summary.csv,180,S27 summary.csv
+source_data/supplementary/s27_qa_summary.json,7,S27 qa_summary.json
+source_data/supplementary/s28_S28_cell_summary.csv,180,S28 S28_cell_summary.csv
+source_data/supplementary/s28_S28_paired_gap_summary.csv,720,S28 S28_paired_gap_summary.csv
+source_data/supplementary/s28_S28_construction_manifest.csv,60,S28 S28_construction_manifest.csv
+source_data/supplementary/s28_S28_QA_report.json,7,S28 S28_QA_report.json
+source_data/supplementary/s28_S28_construction_heatmap_source.csv,180,S28 S28_construction_heatmap_source.csv
+source_data/supplementary/s28_S28_gap_forest_source.csv,720,S28 S28_gap_forest_source.csv
+source_data/supplementary/s29_S29_cell_summary.csv,18,S29 S29_cell_summary.csv
+source_data/supplementary/s29_S29_paired_gap_summary.csv,108,S29 S29_paired_gap_summary.csv
+source_data/supplementary/s29_S29_role_model_eligibility_audit.csv,126,S29 S29_role_model_eligibility_audit.csv
+source_data/supplementary/s30_S30_structure_metrics.csv,324,S30 S30_structure_metrics.csv
+source_data/supplementary/s30_S30_gap_by_structure_stratum.csv,294,S30 S30_gap_by_structure_stratum.csv
+source_data/supplementary/s30_S30_moderator_regression_summary.csv,120,S30 S30_moderator_regression_summary.csv
+source_data/supplementary/s30_S30_structure_moderator_source.csv,1710,S30 S30_structure_moderator_source.csv
+source_data/supplementary/s30_S30_QA_report.json,43,S30 S30_QA_report.json
+source_data/random_seed_manifest.csv,200250,S20-S29 detail.csv seed records; S20 uses metadata seed because per-trial seeds were not recorded; S30 is a deterministic post-processing audit
+source_data/key_source_data_checks.md,,Derived text summary
+experiment_specs/completed_supplemental_audits_s28_s30.csv,3,curated supplementary experiment specification
+experiment_specs/completed_supplemental_audits_s28_s30.json,3,curated supplementary experiment specification
+source_data/source_data_package_manifest.csv,6,Figure-specific Source Data package manifest for Figs. 1-5 and Supplementary Figs. S20-S30

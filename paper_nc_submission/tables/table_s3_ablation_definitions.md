@@ -1,0 +1,16 @@
+# Table S3. Baseline And Ablation Definitions
+
+Rows: 10.
+
+| variant | edge_context | role_rule | tests | reported_in |
+| --- | --- | --- | --- | --- |
+| SCRS | Cooperative-success score over the focal node's incident hyperedges. | Select an eligible cooperator from the sampled successful edge, excluding the focal node, using payoff ranking with random tie-breaking; fall back to a random non-focal edge member when no eligible cooperator exists. | Proposed cooperative role-screening rule under temporal-hypergraph exposure. | Figs. 2-5; Supplementary Figs. S20-S27 |
+| Wang et al. temporal-hypergraph imitation | Temporal-hypergraph interaction sequence without the SCRS cooperative role screen. | Payoff-based imitation following the temporal-hypergraph baseline based on Wang et al. | Standard temporal-hypergraph payoff imitation baseline. | Figs. 2, 4, 5; Supplementary Figs. S20-S27 |
+| CSGC edge-context selection | Cooperative-success group-context selection retained. | No SCRS requirement that the imitated role be a cooperator from the successful group. | Whether edge context alone explains the SCRS gain. | Figs. 2, 4, 5; Supplementary Figs. S20-S27 |
+| Strongest LFDS matched control | Matched local diffusion-style controls available in S20-S27. | The strongest LFDS variant in each matched cell. | Whether SCRS exceeds the best matched local diffusion control. | Fig. 2; Supplementary Figs. S20-S27 |
+| Strategy-shuffled SCRS | SCRS edge context retained. | Strategy labels are permuted before role screening. | Whether the cooperation-conditioned role signal is required. | Figs. 2-5; Supplementary Figs. S20-S27 |
+| Score-shuffled SCRS | Edge scores are permuted before edge sampling. | Downstream SCRS cooperative role screen retained. | Whether score ordering is independently decisive. | Figs. 2-5; Supplementary Figs. S20-S27 |
+| Cooperator-only random role | SCRS exposure layer retained. | Select randomly among eligible cooperators instead of ranking them by payoff. | Whether payoff ranking among eligible cooperators is necessary. | Fig. 3; Supplementary Fig. S25 |
+| Payoff-only role | SCRS exposure layer retained. | Select by payoff without requiring the role model to be a cooperator. | Whether payoff ranking can replace the cooperator filter. | Fig. 3; Supplementary Fig. S25 |
+| Success-only, no cooperator filter | Successful edge condition retained. | Choose from the successful edge without cooperation conditioning. | Whether successful-edge exposure alone can replace cooperative role screening. | Fig. 3; Supplementary Fig. S25 |
+| Random role on selected edge | SCRS selected edge retained. | Sample a random role from the selected edge. | Whether selecting the same edge explains the SCRS gain. | Fig. 3; Supplementary Fig. S25 |

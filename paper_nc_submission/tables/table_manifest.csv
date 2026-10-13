@@ -1,0 +1,5 @@
+table,outputs,rows
+table_s1_experiment_design,tables/table_s1_experiment_design.csv;tables/table_s1_experiment_design.md,11
+table_s2_dataset_statistics,tables/table_s2_dataset_statistics.csv;tables/table_s2_dataset_statistics.md,26
+table_s3_ablation_definitions,tables/table_s3_ablation_definitions.csv;tables/table_s3_ablation_definitions.md,10
+table_s4_proposed_followup_experiments,tables/table_s4_proposed_followup_experiments.csv;tables/table_s4_proposed_followup_experiments.md,3

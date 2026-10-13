@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this code or source data, please cite the manuscript and this archived release."
+title: "Code and source data for: Cooperative role screening stabilizes cooperation in temporal hypergraph public goods games"
+authors:
+  - family-names: Zhao
+    given-names: Hui
+version: "v0.1-nc-submission"
+date-released: "2026-10-13"
+license: "MIT"
+repository-code: "https://github.com/echohana114/scrs-temporal-hypergraph-pgg"
+abstract: "Simulation, analysis, source-data and figure-generation materials for a temporal-hypergraph public-goods-game study of cooperative role screening."
