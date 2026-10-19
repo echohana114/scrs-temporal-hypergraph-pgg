@@ -14,9 +14,26 @@ import pandas as pd
 ROOT = Path(__file__).resolve().parents[2]
 PAPER = ROOT / "paper_nc_submission"
 FIG_DIR = PAPER / "figures" / "supplementary"
-S28 = ROOT / "supplemental_lfds_runs" / "s28_scrs_nc_construction_sensitivity_formal_20261010_195700"
-S29 = ROOT / "supplemental_lfds_runs" / "s29_scrs_nc_mechanism_context_controls_formal_20261010_153000"
-S30 = ROOT / "supplemental_lfds_runs" / "s30_scrs_nc_structure_moderator_formal_20261012_012352"
+DEPOSITED_SUPPLEMENT = PAPER / "source_data" / "supplementary"
+
+
+def result_dir(primary: Path, required_file: str) -> Path:
+    """Use formal outputs locally and the deposited Source Data in clean releases."""
+    return primary if (primary / required_file).exists() else DEPOSITED_SUPPLEMENT
+
+
+S28 = result_dir(
+    ROOT / "supplemental_lfds_runs" / "s28_scrs_nc_construction_sensitivity_formal_20261010_195700",
+    "S28_construction_heatmap_source.csv",
+)
+S29 = result_dir(
+    ROOT / "supplemental_lfds_runs" / "s29_scrs_nc_mechanism_context_controls_formal_20261010_153000",
+    "S29_paired_gap_summary.csv",
+)
+S30 = result_dir(
+    ROOT / "supplemental_lfds_runs" / "s30_scrs_nc_structure_moderator_formal_20261012_012352",
+    "S30_gap_by_structure_stratum.csv",
+)
 
 GREEN = "#2A9D8F"
 BLUE = "#1565C0"
